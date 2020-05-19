@@ -1,0 +1,6 @@
+(defun factorial (num)
+       (cond ((<=  num 0) 1)
+	(t (* (factorial (- num 1)) num))
+		))
+
+(write (factorial 5) )
