@@ -1,0 +1,7 @@
+(princ "Enter the list:")
+(setq list (read))
+(princ "Enter n: ")
+(setq x (read))
+(princ "Nth element is: ")
+( write (nth x list))
+
